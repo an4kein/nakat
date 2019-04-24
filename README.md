@@ -24,6 +24,15 @@
         7. [Get-Help_](#get-help_)
     2. [Exercises2](#exercises2)
         1. [Get-ComputerInfo](#get-computerinfo)
+        2. [Get-Content](#get-content)
+        3. [Get-History](#get-history)
+        4. [Get-PSDrive](#get-psdrive)
+        5. [Get-LocalGroup](#get-localgroup)
+        6. [Clear-History](#clear-history)
+        7. [Invoke-Command](#invoke-command)
+        8. [Import-Module](#import-module)
+        9. [Get-DnsClient](#get-dnsclient)
+        10. [Get-NetRoute](#get-netroute)
 
 ## Basics
 
@@ -242,7 +251,60 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 #### Get-ComputerInfo
 
+```Get-ComputerInfo```
+
 ![Get-ComputerInfo](2019-04-24-03-03-13.png)
 
+#### Get-Content
 
+```Get-Content .\log.txt.txt -TotalCount 5 |Set-Content output.txt```
 
+![Get-Content](2019-04-24-03-33-08.png)
+
+#### Get-History
+
+```Get-History |more```
+
+![Get-History](2019-04-24-03-38-27.png)
+
+#### Get-PSDrive
+
+```Get-PSDrive```
+
+![Get-PSDrive](2019-04-24-03-42-20.png)
+
+#### Get-LocalGroup
+
+```Get-LocalGroup```
+
+![Get-LocalGroup](2019-04-24-03-48-27.png)
+
+#### Clear-History
+
+```Clear-History```
+
+![Clear-History](2019-04-24-03-55-58.png)
+
+#### Invoke-Command
+
+```Get-Help Invoke-Command -Examples |more```
+
+![Invoke-Command](2019-04-24-03-58-32.png)
+
+#### Import-Module
+
+```Get-Help Import-Module -Examples |more```
+
+![Import-Module](2019-04-24-04-01-02.png)
+
+#### Get-DnsClient
+
+```Get-Command -Module DnsClient * |more```
+
+![Get-DnsClient](2019-04-24-04-04-15.png)
+
+#### Get-NetRoute
+
+``` Get-Command -Module NetTCPIP |more```
+
+![Get-NetRoute](2019-04-24-04-08-49.png)
