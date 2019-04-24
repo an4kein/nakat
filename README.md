@@ -9,7 +9,7 @@
         2. [dir](#dir)
         3. [ls](#ls)
         4. [ps](#ps)
-        5. [Get-Help](#get-help1)
+        5. [Get-Help](#get-help)
         6. [Update-Help](#update-help)
         7. [Wildcard](#wildcard)
     2. [Exercises](#exercises1)
@@ -21,7 +21,7 @@
         4. [Start-Process](#start-process)
         5. [Stop-Process](#stop-process)
         6. [Get-HotFix](#get-hotFix)
-        7. [Get-Help](#get-help)
+        7. [Get-Help-](#get-help-)
     2. [Exercises2](#exercises2)
 
 ## Basics
@@ -221,7 +221,7 @@ For online help, type: **"get-help Get-Command -online"**
 
 ![Get-HotFix](2019-04-24-00-34-03.png)
 
-#### Get-Help
+#### Get-Help-
 
 ```Get-Help *cmdlets*```
 
