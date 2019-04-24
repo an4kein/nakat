@@ -7,7 +7,6 @@
 2. [Cmdlets](#cmdlets)
     0. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
         1. [Get-Command](#get-command)
-
     2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
