@@ -9,10 +9,10 @@
         2. [dir](#dir)
         3. [ls](#ls)
         4. [ps](#ps)
-        5. [Get-Help1](#get-help1)
+        5. [Get-Help](#get-help)
         6. [Update-Help](#update-help)
         7. [Wildcard](#wildcard)
-    2. [Exercises1](#exercises1)
+    2. [Exercises](#exercises)
 2. [Cmdlets](#cmdlets)
     1. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
         1. [Get-Command](#get-command)
@@ -52,7 +52,7 @@
 
 ![ps](2019-04-24-01-04-30.png)
 
-#### Get-Help1
+#### Get-Help
 
 ```Get-Help |more```
 
@@ -96,7 +96,7 @@ Install **Update-Help** your computer. Enter **Y**
 
 ![Get-Help about_Aliases |more](2019-04-24-01-29-26.png)
 
-### Exercises1
+### Exercises
 
 Use **Get-Help** to retrieve help about **Get-Command**:
 
