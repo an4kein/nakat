@@ -5,7 +5,9 @@
 # Table of Contents
 1. [Basics](#basics)
 2. [Cmdlets](#cmdlets)
-    1. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
+    0. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
+        1. [Get-Command](#get-command)
+
     2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
@@ -37,6 +39,8 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 ## Cmdlets
 
 ### Exploring and Using Cmdlets
+
+#### Get-Command
 
 **DESCRIPTION**
     The **Get-Command** cmdlet gets all commands that are installed on the computer, including cmdlets, aliases, functions,
