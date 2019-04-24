@@ -77,6 +77,25 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 
 ![Get-Help Get-Command -Parameter * |more](2019-04-23-23-35-23.png)
 
+**Cmdlet Process**
+
+```Get-Command -CommandType Cmdlet -Name *process*```
+
+![Get-Command -CommandType Cmdlet -Name *process*](2019-04-23-23-42-07.png)
+
+**Cmdlet Service**
+
+```Get-Command -CommandType Cmdlet -Name *service*```
+
+![Get-Command -CommandType Cmdlet -Name *service*](2019-04-23-23-43-45.png)
+
+**Measure-Object**
+
+810 Cmdlet Installed
+
+```Get-Command -CommandType Cmdlet |Measure-Object```
+
+![Get-Command -CommandType Cmdlet |Measure-Object](2019-04-23-23-48-21.png)
 
 
 
