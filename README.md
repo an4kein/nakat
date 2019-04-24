@@ -2,6 +2,13 @@
 
 ## PowerShell for Pentesters
 
+# Table of Contents
+1. [Update-Help](#update-help)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
+## Update-Help
+
 Install **Update-Help** your computer. Enter **Y**
 
 ```Get-Help Get-Help -Examples |more```
@@ -24,3 +31,7 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 ```Get-Help about_PowerShell.exe```
 
 ![Get-Help about_PowerShell.exe](2019-04-23-22-03-22.png)
+
+## Example2
+
+## Third Example
