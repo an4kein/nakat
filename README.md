@@ -14,7 +14,6 @@
         6. [Get-HotFix](#get-hotFix)
         7. [Get-Help](#get-help)
     2. [Exercises](#exercises)
-3. [Third Example](#third-example)
 
 ## Basics
 
@@ -163,5 +162,3 @@ For online help, type: **"get-help Get-Command -online"**
 
 Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful in penetration tests.
 
-
-## Third Example
