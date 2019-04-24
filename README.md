@@ -42,6 +42,7 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 #### Get-Command
 
 **DESCRIPTION**
+
     The **Get-Command** cmdlet gets all commands that are installed on the computer, including cmdlets, aliases, functions,
     workflows, filters, scripts, and applications. Get-Command gets the commands from Windows PowerShell modules and
     snap-ins and commands that were imported from other sessions. To get only commands that have been imported into the
@@ -60,6 +61,7 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 ![Get-Command -CommandType Cmdlet |more](2019-04-23-23-26-01.png)
 
 **REMARKS**
+
     To see the examples, type: **"get-help Get-Command -examples"**.
     For more information, type: **"get-help Get-Command -detailed"**.
     For technical information, type: **"get-help Get-Command -full"**.
@@ -68,6 +70,14 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 ```Get-Help Get-Command -full |more```
 
 ![Get-Help Get-Command -full |more](2019-04-23-23-29-37.png)
+
+**PARAMETERS**
+
+```Get-Help Get-Command -Parameter * |more```
+
+![Get-Help Get-Command -Parameter * |more](2019-04-23-23-35-23.png)
+
+
 
 
 
