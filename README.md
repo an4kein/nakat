@@ -4,6 +4,15 @@
 
 # Table of Contents
 1. [Basics](#basics)
+    1. [PowerShell-Basic](#powerShell-basic)
+        1. [cd](#cd)
+        2. [dir](#dir)
+        3. [ls](#ls)
+        4. [ps](#ps)
+        5. [Get-Help1](#get-help1)
+        6. [Update-Help](#update-help)
+        7. [Wildcard](#wildcard)
+    2. [Exercises1](#exercises1)
 2. [Cmdlets](#cmdlets)
     1. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
         1. [Get-Command](#get-command)
@@ -13,9 +22,43 @@
         5. [Stop-Process](#stop-process)
         6. [Get-HotFix](#get-hotFix)
         7. [Get-Help](#get-help)
-    2. [Exercises](#exercises)
+    2. [Exercises2](#exercises2)
 
 ## Basics
+
+### PowerShell-Basic
+
+#### cd 
+
+``` cd \```
+
+![cd](2019-04-24-01-12-40.png)
+
+#### dir
+
+```dir```
+
+![dir](2019-04-24-01-13-12.png)
+
+#### ls
+
+```ls```
+
+![ls](2019-04-24-01-02-25.png)
+
+#### ps
+
+```ps```
+
+![ps](2019-04-24-01-04-30.png)
+
+#### Get-Help1
+
+```Get-Help |more```
+
+![`Get-Help |more](2019-04-24-01-16-37.png)
+
+#### Update-Help
 
 Install **Update-Help** your computer. Enter **Y**
 
@@ -23,6 +66,37 @@ Install **Update-Help** your computer. Enter **Y**
 
 ![Get-Help](2019-04-23-21-49-46.png)
 
+#### Wildcard
+
+```Get-Help * |more```
+
+![Get-Help * |more](2019-04-24-01-21-29.png)
+
+```Get-Help *process```
+
+![Get-Help *process](2019-04-24-01-22-55.png)
+
+```Get-Process```
+
+![Get-Process](2019-04-24-01-24-23.png)
+
+```Get-Help *alias*```
+
+![Get-Help *alias*](2019-04-24-01-25-45.png)
+
+```Get-Alias```
+
+![Get-Alias](2019-04-24-01-26-50.png)
+
+```Get-Help Get-Help -Examples |more```
+
+![Get-Help Get-Help -Examples |more](2019-04-24-01-28-00.png)
+
+```Get-Help about_Aliases |more```
+
+![Get-Help about_Aliases |more](2019-04-24-01-29-26.png)
+
+### Exercises1
 
 Use **Get-Help** to retrieve help about **Get-Command**:
 
@@ -157,8 +231,11 @@ For online help, type: **"get-help Get-Command -online"**
 
 ![Get-Help *command*](2019-04-24-00-41-56.png)
 
+```Get-Help about_Core_Commands |more```
 
-### Exercises
+![Get-Help about_Core_Commands |more](2019-04-24-00-47-52.png)
+
+### Exercises2
 
 Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful in penetration tests.
 
