@@ -51,6 +51,26 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 
 ![Get-Help Get-Command |more](2019-04-23-23-12-39.png)
 
+```Get-Command |more```
+
+![Get-Command |more](2019-04-23-23-24-28.png)
+
+```Get-Command -CommandType Cmdlet |more```
+
+![Get-Command -CommandType Cmdlet |more](2019-04-23-23-26-01.png)
+
+**REMARKS**
+    To see the examples, type: **"get-help Get-Command -examples"**.
+    For more information, type: **"get-help Get-Command -detailed"**.
+    For technical information, type: **"get-help Get-Command -full"**.
+    For online help, type: **"get-help Get-Command -online"**
+
+```Get-Help Get-Command -full |more```
+
+![Get-Help Get-Command -full |more](2019-04-23-23-29-37.png)
+
+
+
 
 
 ### Exercises
