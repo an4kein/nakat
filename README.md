@@ -7,6 +7,8 @@
 2. [Cmdlets](#cmdlets)
     1. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
         1. [Get-Command](#get-command)
+        2. [Get-Process](#get-process)
+        3. [Get-Service](#get-service)
     2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
@@ -93,6 +95,63 @@ For online help, type: **"get-help Get-Command -online"**
 ```Get-Command -CommandType Cmdlet |Measure-Object```
 
 ![Get-Command -CommandType Cmdlet |Measure-Object](2019-04-23-23-48-21.png)
+
+#### Get-Process
+
+**Get-Process**
+
+```Get-Process |more```
+
+![Get-Process |more](2019-04-23-23-55-02.png)
+
+#### Get-Service
+
+**Get-Service**
+
+```Get-Service |more```
+
+![Get-Service |more](2019-04-23-23-56-20.png)
+
+**Get-Command -Verb stop**
+
+```Get-Command -Verb stop```
+
+![Get-Command -Verb stop](2019-04-23-23-58-42.png)
+
+**Get-Command -Verb start**
+
+```Get-Command -Verb start```
+
+![Get-Command -Verb start](2019-04-24-00-01-35.png)
+
+**Get-Help Start-Process -Examples |more**
+
+```Get-Help Start-Process -Examples |more```
+
+![Get-Help Start-Process -Examples |more](2019-04-24-00-03-22.png)
+
+**Start-Process -FilePath notepad.exe**
+
+```Start-Process -FilePath notepad.exe```
+
+![Start-Process -FilePath notepad.exe](2019-04-24-00-11-08.png)
+
+**Stop-Process -Name notepad**
+
+```Stop-Process -Name notepad```
+
+**Get-Process notepad**
+
+```Get-Process notepad```
+
+![Get-Process notepad](2019-04-24-00-16-08.png)
+
+**Stop-Process -Id 6292**
+
+```Stop-Process -Id 6292```
+
+![Stop-Process -Id 6292](2019-04-24-00-17-41.png)
+
 
 
 
