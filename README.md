@@ -23,6 +23,7 @@
         6. [Get-HotFix](#get-hotFix)
         7. [Get-Help_](#get-help_)
     2. [Exercises2](#exercises2)
+        1. [Get-ComputerInfo](#get-computerinfo)
 
 ## Basics
 
@@ -238,4 +239,10 @@ For online help, type: **"get-help Get-Command -online"**
 ### Exercises2
 
 Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful in penetration tests.
+
+#### Get-ComputerInfo
+
+![Get-ComputerInfo](2019-04-24-03-03-13.png)
+
+
 
