@@ -11,6 +11,8 @@
         3. [Get-Service](#get-service)
         4. [Start-Process](#start-process)
         5. [Stop-Process](#stop-process)
+        6. [Get-HotFix](#get-hotFix)
+        7. [Get-Help](#get-help)
     2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
@@ -140,14 +142,26 @@ For online help, type: **"get-help Get-Command -online"**
 
 ![Stop-Process -Id 6292](2019-04-24-00-17-41.png)
 
+#### Get-HotFix
 
+```Get-HotFix```
 
+![Get-HotFix](2019-04-24-00-34-03.png)
 
+#### Get-Help
 
+```Get-Help *cmdlets*```
+
+![Get-Help *cmdlets*](2019-04-24-00-41-05.png)
+
+```Get-Help *command*```
+
+![Get-Help *command*](2019-04-24-00-41-56.png)
 
 
 ### Exercises
 
+Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful in penetration tests.
 
 
 ## Third Example
