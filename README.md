@@ -18,6 +18,9 @@ Use **Get-Help** to retrieve help about **Get-Command**:
 Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 
 ```Get-Help powershell```
+
+![Get-Help powershell](2019-04-23-22-02-36.png)
+
 ```Get-Help about_PowerShell.exe```
 
-![Get-Help powershell](2019-04-23-21-58-48.png)
+![Get-Help about_PowerShell.exe](2019-04-23-22-03-22.png)
