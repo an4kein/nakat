@@ -5,6 +5,7 @@
 Install **Update-Help** your computer. Enter **Y**
 
 ```Get-Help Get-Help -Examples |more```
+
 ![Get-Help](2019-04-23-21-49-46.png)
 
 
