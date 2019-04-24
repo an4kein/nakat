@@ -6,6 +6,7 @@
 1. [Basics](#basics)
 2. [Cmdlets](#cmdlets)
     1. [Options](#options)
+    2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
 ## Basics
@@ -35,7 +36,9 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 
 ## Cmdlets
 
-### Options 
+### Options
+
+### Exercises
 
 
 
