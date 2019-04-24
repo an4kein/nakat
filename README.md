@@ -5,7 +5,7 @@
 # Table of Contents
 1. [Basics](#basics)
 2. [Cmdlets](#cmdlets)
-    1. [Options](#options)
+    1. [Exploring and Using Cmdlets](#exploring-and-using-cmdlets)
     2. [Exercises](#exercises)
 3. [Third Example](#third-example)
 
@@ -36,7 +36,8 @@ Use **Get-Help about_[topic]** to retrieve help about **powershell.exe**:
 
 ## Cmdlets
 
-### Options
+### Exploring and Using Cmdlets
+
 
 ### Exercises
 
