@@ -2,11 +2,12 @@
 
 ## PowerShell for Pentesters
 
+Install **Update-Help** your computer. Enter **Y**
+```Get-Help Get-Help -Examples |more```
+![Get-Help](2019-04-23-21-49-46.png)
+
+
 Use **Get-Help** to retrieve help about **Get-Command**
-![test](2019-04-23-21-24-38.png)
+![Get-Command](2019-04-23-21-24-38.png)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 032f23df4dea3f411aeedc3118556ce303205f06
 Use **Get-Help about_[topic]** to retrieve help about *powershell.exe*
