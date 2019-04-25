@@ -33,6 +33,10 @@
         8. [Import-Module](#import-module)
         9. [Get-DnsClient](#get-dnsclient)
         10. [Get-NetRoute](#get-netroute)
+3. [OutputFormatting](#OutputFormatting)
+    1. [Output Formatting](#outputformating)
+        1. [Format-Table](#format-table)
+    2. [Output Manipulation](#output-manipulation)
 
 ## Basics
 
@@ -308,3 +312,22 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 ``` Get-Command -Module NetTCPIP |more```
 
 ![Get-NetRoute](2019-04-24-04-08-49.png)
+
+## OutputFormatting
+
+### Output Formatting
+
+![Output Formatting](2019-04-25-00-44-32.png)
+
+#### Format-Table
+
+![Format-Table](2019-04-25-00-48-37.png)
+
+```Get-ChildItem |Format-Table Name```
+
+![Get-ChildItem |Format-Table Name](2019-04-25-00-54-48.png)
+
+
+
+
+
