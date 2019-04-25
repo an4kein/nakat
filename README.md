@@ -51,6 +51,10 @@
 5. [Advanced-Operators](#advanced-Operators)
     1. [Logical](#logical)
         1. [-and](#-and)
+        2. [-or](#-or)
+        3. [-xor](#-xor)
+        4. [-not](#-not)
+        5. [!](#!)
     2. [Split-and-Join]
         1. [-split](#-split)
         2. [-join](#-join)
@@ -471,3 +475,29 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 ```Get-Help about_Logical -Examples |more```
 
 ![-and](2019-04-25-20-03-21.png)
+
+#### -or
+
+![-or](2019-04-25-20-14-19.png)
+
+#### -xor 
+
+![-xor](2019-04-25-20-18-11.png)
+
+#### -not
+
+![-not](2019-04-25-20-24-34.png)
+
+#### !
+
+![!](2019-04-25-20-27-09.png)
+
+
+### Split-and-Join
+
+#### -split
+
+
+#### -join
+
+### Type-Operations
