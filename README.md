@@ -420,12 +420,19 @@ Explore the PowerShell help system and locate help topics for various operators.
 SEE ALSO
 
 *about_Arithmetic_Operators*
+
 *about_Assignment_Operators*
+
 *about_Comparison_Operators*
+
 *about_Logical_Operators*
+
 *about_Type_Operators*
+
 *about_Split*
+
 *about_Join*
+
 *about_Redirection*
 
 #### :: Static member operator
@@ -437,6 +444,10 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 ![datetime](2019-04-25-03-20-48.png)
 
 #### -split
+
+```$i = 1```
+
+```$c -split {if ($i -lt 1) {$_ -eq ","} else {$_ -eq ";"}}```
 
 ![split](2019-04-25-03-54-37.png)
 
