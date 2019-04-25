@@ -392,7 +392,7 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ### Redirection
 
-## >  ,  >>  ,  2>  ,  2>  ,  and 2>&1
+## >  ,  >>  ,  2> , 2>&1
 
 ![Redirection](2019-04-25-03-00-26.png)
 
