@@ -45,6 +45,9 @@
     2. [Assignment](#assignment)
     3. [Comparison](#comparison)
     4. [Redirection](#redirection)
+    6. [Exercise3](#exercise3)
+        1.  [:: Static member operator](#static-member-operator)
+        2.  [-split](#split)
 
 
 ## Basics
@@ -405,3 +408,37 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 ```2>&1```
 
 ![Redirection3](2019-04-25-03-06-04.png)
+
+### Exercise3
+
+Explore the PowerShell help system and locate help topics for various operators.
+
+```Get-Help Arith |more```
+
+![Get-Help Arith |more](2019-04-25-03-15-12.png)
+
+SEE ALSO
+
+*about_Arithmetic_Operators*
+*about_Assignment_Operators*
+*about_Comparison_Operators*
+*about_Logical_Operators*
+*about_Type_Operators*
+*about_Split*
+*about_Join*
+*about_Redirection*
+
+#### :: Static member operator
+
+Calls the static properties operator and methods of a .NET Framework class. To find the static properties and methods of an object, use the Static parameter of the Get-Member cmdlet.
+
+```[datetime]::now```
+
+![datetime](2019-04-25-03-20-48.png)
+
+#### -split
+
+![split](2019-04-25-03-54-37.png)
+
+
+
