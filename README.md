@@ -45,9 +45,9 @@
     2. [Assignment](#assignment)
     3. [Comparison](#comparison)
     4. [Redirection](#redirection)
-    6. [Exercise3](#exercise3)
-        1.  [Static member operator](#static-member-operator)
-        2.  [split](#split)
+5. [Exercise3](#exercise3)
+    1.  [Static member operator](#static-member-operator)
+    2.  [split](#split)
 
 
 ## Basics
@@ -409,7 +409,7 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ![Redirection3](2019-04-25-03-06-04.png)
 
-### Exercise3
+## Exercise3
 
 Explore the PowerShell help system and locate help topics for various operators.
 
@@ -435,7 +435,7 @@ SEE ALSO
 
 *about_Redirection*
 
-#### Static member operator
+### Static member operator
 
 Calls the static properties operator and methods of a .NET Framework class. To find the static properties and methods of an object, use the Static parameter of the Get-Member cmdlet.
 
@@ -443,7 +443,7 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 
 ![datetime](2019-04-25-03-20-48.png)
 
-#### split
+### split
 
 ```$i = 1```
 
