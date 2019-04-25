@@ -54,7 +54,7 @@
         2. [-or](#-or)
         3. [-xor](#-xor)
         4. [-not](#-not)
-        5. [Negates !](#Negates-!)
+        5. [Negates](#negates)
     2. [Split and Join](#split-and-join)
         1. [-split](#-split)
         2. [-join](#-join)
@@ -488,9 +488,9 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 
 ![-not](2019-04-25-20-24-34.png)
 
-#### Negates !
+#### Negates
 
-![Negates !](2019-04-25-20-27-09.png)
+![Negates](2019-04-25-20-27-09.png)
 
 
 ### Split and Join
