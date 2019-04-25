@@ -40,6 +40,9 @@
     2. [Output Manipulation](#output-manipulation)
         1. [Out-GridView](#out-gridview)
         2. [Out-File](#out-file)
+4. [Operators](#operators)
+    1. [Arithmetic](#Arithmetic)
+    2. [Assignment](#assignment)
 
 
 ## Basics
@@ -365,6 +368,14 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ![Get-ChildItem |Format-List * |Out-File](2019-04-25-01-35-14.png)
 
+## Operators
 
+### Arithmetic
 
+**[````+,-,*,/,%```]**
 
+![Arithmetic](2019-04-25-02-31-41.png)
+
+### Assignment
+
+![Assignment](2019-04-25-02-34-46.png)
