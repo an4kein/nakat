@@ -372,7 +372,7 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ### Arithmetic
 
-**[````+,-,*,/,%```]**
+## +  ,  -  ,  *  ,  /  ,  % 
 
 ![Arithmetic](2019-04-25-02-31-41.png)
 
