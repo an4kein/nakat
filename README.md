@@ -43,6 +43,8 @@
 4. [Operators](#operators)
     1. [Arithmetic](#Arithmetic)
     2. [Assignment](#assignment)
+    3. [Comparison](#comparison)
+    4. [Redirection](#redirection)
 
 
 ## Basics
@@ -381,3 +383,19 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 ## =  ,  +=  ,  -=  ,  *=  ,  /=  ,  %=
 
 ![Assignment](2019-04-25-02-34-46.png)
+
+### Comparison
+
+## -eq  ,  -ne  ,  -gt  ,  -lt  ,  -le  ,  -ge  ,  -match  ,  -notmatch  ,  -replace  ,  -like  ,  -notlike  ,  -in  ,  -notin  ,  -contains  ,  -notcontains
+
+![Comparison](2019-04-25-02-56-41.png)
+
+### Redirection
+
+## >  ,  >>  ,  2>  ,  2>  ,  and 2>&1
+
+![Redirection](2019-04-25-03-00-26.png)
+
+![Redirection2](2019-04-25-03-01-57.png)
+
+![Redirection3](2019-04-25-03-06-04.png)
