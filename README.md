@@ -33,10 +33,14 @@
         8. [Import-Module](#import-module)
         9. [Get-DnsClient](#get-dnsclient)
         10. [Get-NetRoute](#get-netroute)
-3. [OutputFormatting](#OutputFormatting)
-    1. [Output Formatting](#outputformating)
+3. [Output Formatting](#OutputFormatting)
+    1. [Formatting](#formatting)
         1. [Format-Table](#format-table)
+        2. [Format-List](#format-list)
     2. [Output Manipulation](#output-manipulation)
+        1. [Out-GridView](#out-gridview)
+        2. [Out-File](#out-file)
+
 
 ## Basics
 
@@ -313,9 +317,9 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ![Get-NetRoute](2019-04-24-04-08-49.png)
 
-## OutputFormatting
+## Output Formatting
 
-### Output Formatting
+### Formatting
 
 ```Get-Command -CommandType Cmdlet -Name format*```
 
@@ -331,6 +335,35 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ![Get-ChildItem |Format-Table Name](2019-04-25-00-54-48.png)
 
+#### Format-List
+
+![Format-List](2019-04-25-01-02-32.png)
+
+### Output Manipulation
+
+```Get-Command -CommandType Cmdlet -Name out*```
+
+![Get-Command -CommandType Cmdlet -Name out*](2019-04-25-01-12-39.png)
+
+#### Out-GridView
+
+```Get-Process |Out-GridView```
+
+![Get-Process |Out-GridView](2019-04-25-01-15-24.png)
+
+#### Out-File
+
+```Get-Process |Out-File -FilePath get_process.txt```
+
+![Get-Process |Out-File -FilePath get_process.txt](2019-04-25-01-26-59.png)
+
+```Get-Content .\get_process.txt |more```
+
+![Get-Content .\get_process.txt |more](2019-04-25-01-28-15.png)
+
+```Get-ChildItem |Format-List * |Out-File -FilePath 'C:\Users\anake\Downloads\list.txt'```
+
+![Get-ChildItem |Format-List * |Out-File](2019-04-25-01-35-14.png)
 
 
 
