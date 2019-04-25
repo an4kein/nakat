@@ -317,9 +317,13 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ### Output Formatting
 
+```Get-Command -CommandType Cmdlet -Name format*```
+
 ![Output Formatting](2019-04-25-00-44-32.png)
 
 #### Format-Table
+
+```Get-ChildItem |Format-Table```
 
 ![Format-Table](2019-04-25-00-48-37.png)
 
