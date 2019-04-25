@@ -48,14 +48,14 @@
     6. [Exercise3](#exercise3)
         1.  [Static member operator](#static-member-operator)
         2.  [split](#split)
-5. [Advanced-Operators](#advanced-Operators)
+5. [Advanced Operators](#advanced-Operators)
     1. [Logical](#logical)
         1. [-and](#-and)
         2. [-or](#-or)
         3. [-xor](#-xor)
         4. [-not](#-not)
         5. [!](#!)
-    2. [Split-and-Join]
+    2. [Split and Join](#split-and-join)
         1. [-split](#-split)
         2. [-join](#-join)
     3. [Type-Operations](#type-operations)
@@ -464,7 +464,7 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 
 
 
-## Advanced-Operators
+## Advanced Operators
 
 ### Logical
 
@@ -493,7 +493,7 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 ![!](2019-04-25-20-27-09.png)
 
 
-### Split-and-Join
+### Split and Join
 
 #### -split
 
