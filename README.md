@@ -394,8 +394,14 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ## >  ,  >>  ,  2> , 2>&1
 
+```>```
+
 ![Redirection](2019-04-25-03-00-26.png)
 
+```>>```
+
 ![Redirection2](2019-04-25-03-01-57.png)
+
+```2>&1``
 
 ![Redirection3](2019-04-25-03-06-04.png)
