@@ -378,4 +378,6 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ### Assignment
 
+## =  ,  +=  ,  -=  ,  *=  ,  /=  ,  %=
+
 ![Assignment](2019-04-25-02-34-46.png)
