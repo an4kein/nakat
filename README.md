@@ -402,6 +402,6 @@ Explore cmdlets using **Get-Command** and pick ten cmdlets which could be useful
 
 ![Redirection2](2019-04-25-03-01-57.png)
 
-```2>&1``
+```2>&1```
 
 ![Redirection3](2019-04-25-03-06-04.png)
