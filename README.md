@@ -64,6 +64,9 @@
         3. [-as](#-as)
 6. [Types](#types)
     1. [Get-Type](#get-type)
+7. [Arrays](#arrays)
+   1. [Type Conversion](#type-conversion)
+   2. [Array](#Array)
 
 
 
@@ -531,6 +534,34 @@ PSObject and the Adapted and Extended Type Systems (ATS and ETS) [https://blogs.
 
 
 ![Get-Type](2019-04-26-01-54-00.png)
+
+![strings](2019-04-26-02-05-11.png)
+
+![strings1](2019-04-26-02-06-43.png)
+
+![strings2](2019-04-26-02-09-25.png)
+
+## Arrays
+
+### Type Conversion
+
+![Type Conversion](2019-04-26-02-19-13.png)
+
+![conv](2019-04-26-02-21-41.png)
+
+### Array
+
+Commands in PowerShell return an array of Objects - **Object[]**
+
+![array](2019-04-26-02-27-12.png)
+
+![array2](2019-04-26-02-29-34.png)
+
+More than one type of elements could be stored.
+
+![empty](2019-04-26-02-31-39.png)
+
+
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
