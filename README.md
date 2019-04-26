@@ -70,8 +70,8 @@
 8. [Conditional Statements](#conditional-statements)
     1. [if elseif else](#if-elseif-else)
     2. [Switch Statement](#switch-statement)
-    3. [switch -Wildcard](#switch-Wildcard)
-    4. [Switch -Regex](#Switch-Regex)
+    3. [Switch -Wildcard](#switch--Wildcard)
+    4. [Switch -Regex](#switch--Regex)
 
 
 
@@ -578,7 +578,7 @@ More than one type of elements could be stored.
 
 ![Switch Statement](2019-04-26-02-48-01.png)
 
-### switch -Wildcard
+### Switch -Wildcard
 
 ![switch -Wildcard](2019-04-26-02-58-50.png)
 
@@ -590,7 +590,7 @@ More than one type of elements could be stored.
 
 ```Switch -Regex -File C:\Users\anake\OneDrive\Desktop\WindowsUpdate.log { 'Validating'{$_}}```
 
-![Switch -Regex](2019-04-26-03-11-54.png)
+![Switch -Regex -File](2019-04-26-03-11-54.png)
 
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
