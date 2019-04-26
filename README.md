@@ -79,6 +79,7 @@
         1. [ForEach-Object](#ForEach-Object)
         2. [Where-Object](#Where-Object)
     4. [Exercise4](#Exercise4)
+10. [Basic Scripting](#BasicScripting)
 
 
 
@@ -628,6 +629,8 @@ Iterate through the process running on your computer and print the path of the e
 ``` Get-Process |ForEach-Object -MemberName Path```
 
 ![Get-Process |ForEach-Object -MemberName Path](2019-04-26-03-59-10.png)
+
+## Basic Scripting
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
