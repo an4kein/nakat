@@ -65,8 +65,13 @@
 6. [Types](#types)
     1. [Get-Type](#get-type)
 7. [Arrays](#arrays)
-   1. [Type Conversion](#type-conversion)
-   2. [Array](#Array)
+    1. [Type Conversion](#type-conversion)
+    2. [Array](#Array)
+8. [Conditional Statements](#conditional-statements)
+    1. [if elseif else](#if-elseif-else)
+    2. [Switch Statement](#switch-statement)
+    3. [switch -Wildcard](#switch-Wildcard)
+    4. [Switch -Regex](#Switch-Regex)
 
 
 
@@ -555,12 +560,37 @@ Commands in PowerShell return an array of Objects - **Object[]**
 
 ![array](2019-04-26-02-27-12.png)
 
+Index
+
 ![array2](2019-04-26-02-29-34.png)
 
 More than one type of elements could be stored.
 
 ![empty](2019-04-26-02-31-39.png)
 
+## Conditional Statements
+
+### if elseif else
+
+![if elseif else](2019-04-26-02-42-56.png)
+
+### Switch Statement
+
+![Switch Statement](2019-04-26-02-48-01.png)
+
+### switch -Wildcard
+
+![switch -Wildcard](2019-04-26-02-58-50.png)
+
+### Switch -Regex
+
+```Get-WindowsUpdateLog```
+
+![Get-WindowsUpdateLog](2019-04-26-03-11-17.png)
+
+```Switch -Regex -File C:\Users\anake\OneDrive\Desktop\WindowsUpdate.log { 'Validating'{$_}}```
+
+![Switch -Regex](2019-04-26-03-11-54.png)
 
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
