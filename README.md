@@ -72,6 +72,13 @@
     2. [Switch Statement](#switch-statement)
     3. [Switch -Wildcard](#switch--Wildcard)
     4. [Switch -Regex](#switch--Regex)
+9. [Loop Statements](#Loop-Statements)
+    1. [while](#while)
+    2. [foreach](#foreach)
+    3. [Loop Cmdlets](loopcmdlets)
+        1. [ForEach-Object](#ForEach-Object)
+        2. [Where-Object](#Where-Object)
+    4. [Exercise4](#Exercise4)
 
 
 
@@ -592,6 +599,35 @@ More than one type of elements could be stored.
 
 ![Switch -Regex -File](2019-04-26-03-11-54.png)
 
+## Loop Statements
+
+### while
+
+![while](2019-04-26-03-37-53.png)
+
+### foreach
+
+![foreach](2019-04-26-03-42-25.png)
+
+### Loop Cmdlets
+
+#### ForEach-Object
+
+![ForEach-Object](2019-04-26-03-47-09.png)
+
+#### Where-Object
+
+```Get-ChildItem |Where-Object {$_.Name -match "txt"}```
+
+![Where-Object](2019-04-26-03-51-36.png)
+
+### Exercise4
+
+Iterate through the process running on your computer and print the path of the executable for each process.
+
+``` Get-Process |ForEach-Object -MemberName Path```
+
+![Get-Process |ForEach-Object -MemberName Path](2019-04-26-03-59-10.png)
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
