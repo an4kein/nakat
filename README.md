@@ -46,8 +46,8 @@
     3. [Comparison](#comparison)
     4. [Redirection](#redirection)
     6. [Exercise3](#exercise3)
-        1.  [Static member operator](#static-member-operator)
-        2.  [split](#split)
+        1. [Static member operator](#static-member-operator)
+        2. [split](#split)
 5. [Advanced Operators](#advanced-Operators)
     1. [Logical](#logical)
         1. [-and](#-and)
@@ -62,6 +62,9 @@
         1. [-is](#-is)
         2. [-isnot](#-isnot)
         3. [-as](#-as)
+6. [Types](#types)
+    1. [Get-Type](#get-type)
+
 
 
 ## Basics
@@ -519,3 +522,15 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 #### -as
 
 ![-as](2019-04-25-21-41-15.png)
+
+## Types
+
+### Get-Type
+
+PSObject and the Adapted and Extended Type Systems (ATS and ETS) [https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/][types]
+
+
+![Get-Type](2019-04-26-01-54-00.png)
+
+[types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
+
