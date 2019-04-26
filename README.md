@@ -59,6 +59,9 @@
         1. [-split](#-split)
         2. [-join](#-join)
     3. [Type-Operations](#type-operations)
+        1. [-is](#-is)
+        2. [-isnot](#-isnot)
+        3. [-as](#-as)
 
 
 ## Basics
@@ -497,7 +500,22 @@ Calls the static properties operator and methods of a .NET Framework class. To f
 
 #### -split
 
+![-split](2019-04-25-20-59-45.png)
 
 #### -join
 
+![-join](2019-04-25-21-02-22.png)
+
 ### Type-Operations
+
+#### -is
+
+![-is](2019-04-25-21-05-50.png)
+
+#### -isnot
+
+![-isnot](2019-04-25-21-36-34.png)
+
+#### -as
+
+![-as](2019-04-25-21-41-15.png)
