@@ -79,7 +79,7 @@
         1. [ForEach-Object](#ForEach-Object)
         2. [Where-Object](#Where-Object)
     4. [Exercise4](#Exercise4)
-10. [Basic Scripting](#BasicScripting)
+10. [Basic Scripting](#Basic-Scripting)
 
 
 
