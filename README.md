@@ -83,7 +83,7 @@
     1. [PowerShell ISE](#PowerShell-ISE)
     2. [Get-ExecutionPolicy](#Get-ExecutionPolicy)
     3. [Set-ExecutionPolicy](#Set-ExecutionPolicy)
-11. [Functions Part 1](#012-Functions-Part-1)
+11. [Functions Part 1](#Functions-Part-1)
     1. [Simple Usage](#Simple-Usage)
     2. [Parameters of a PowerShell function](#Parameters-of-a-PowerShell-function)
         1. [$args](#$args)
