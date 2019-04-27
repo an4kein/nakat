@@ -83,12 +83,16 @@
     1. [PowerShell ISE](#PowerShell-ISE)
     2. [Get-ExecutionPolicy](#Get-ExecutionPolicy)
     3. [Set-ExecutionPolicy](#Set-ExecutionPolicy)
-11. [Functions-Part-1](#012-Functions-Part-1)
+11. [Functions Part 1](#012-Functions-Part-1)
     1. [Simple Usage](#Simple-Usage)
     2. [Parameters of a PowerShell function](#Parameters-of-a-PowerShell-function)
         1. [$args](#$args)
         2. [Declaring parameters](#Declaring-parameters)
         3. [Positional and named parameters](#Positional-and-named-parameters)
+12. [Functions Part 2](#Functions-Part-2)
+    1. [Dynamic number of Parameters](#Dynamic-number-of-Parameters)
+    2. [Type declaration of the Parameters](#Type-declaration-of-the-Parameters)
+    3. [Default Values](#Default-Values)
 
 
 
@@ -687,6 +691,24 @@ Run PowerShell as Administrator
 #### Positional and named parameters
 
 ![Positional and named parameters](2019-04-26-21-48-29.png)
+
+## Functions Part 2
+
+### Dynamic number of Parameters
+
+![Dynamic number of Parameters](2019-04-27-00-12-03.png)
+
+![[Dynamic number of Par](2019-04-27-00-12-52.png)
+
+### Type declaration of the Parameters
+
+![Type declaration](2019-04-27-00-15-04.png)
+
+![addstring](2019-04-27-00-20-29.png)
+
+### Default Values
+
+![Default Values](2019-04-27-00-24-13.png)
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
