@@ -83,6 +83,12 @@
     1. [PowerShell ISE](#PowerShell-ISE)
     2. [Get-ExecutionPolicy](#Get-ExecutionPolicy)
     3. [Set-ExecutionPolicy](#Set-ExecutionPolicy)
+11. [Functions-Part-1](#012-Functions-Part-1)
+    1. [Simple Usage](#Simple-Usage)
+    2. [Parameters of a PowerShell function](#Parameters-of-a-PowerShell-function)
+        1. [$args](#$args)
+        2. [Declaring parameters](#Declaring-parameters)
+        3. [Positional and named parameters](#Positional-and-named-parameters)
 
 
 
@@ -659,6 +665,28 @@ Run PowerShell as Administrator
 ```Set-ExecutionPolicy Restricted```
 
 ![Executio](2019-04-26-21-03-21.png)
+
+## Functions-Part-1
+
+### Simple Usage
+
+![Simple Usage](2019-04-26-21-36-18.png)
+
+### Parameters of a PowerShell function
+
+#### $args
+
+![Simple Usage2](2019-04-26-21-38-12.png)
+
+#### Declaring parameters
+
+![Simp](2019-04-26-21-39-26.png)
+
+![declare](2019-04-26-21-41-46.png)
+
+#### Positional and named parameters
+
+![Positional and named parameters](2019-04-26-21-48-29.png)
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
