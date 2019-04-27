@@ -698,7 +698,7 @@ Run PowerShell as Administrator
 
 ![Dynamic number of Parameters](2019-04-27-00-12-03.png)
 
-![[Dynamic number of Par](2019-04-27-00-12-52.png)
+![Dynamic number of Par](2019-04-27-00-12-52.png)
 
 ### Type declaration of the Parameters
 
