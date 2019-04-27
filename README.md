@@ -660,7 +660,7 @@ Run PowerShell as Administrator
 
 ![Set-ExecutionPolicy](2019-04-26-21-00-25.png)
 
-![[Set-Execu](2019-04-26-21-01-18.png)
+![Set-Execu](2019-04-26-21-01-18.png)
 
 ```Set-ExecutionPolicy Restricted```
 
