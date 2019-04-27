@@ -94,6 +94,11 @@
     2. [Type declaration of the Parameters](#Type-declaration-of-the-Parameters)
     3. [Default Values](#Default-Values)
 13. [Functions Part 3](#Functions-Part-3)
+    1. [Switch Parameters](#Switch-Parameters)
+    2. [Returning values](#Returning-values)
+    3. [Scope of variables and functions](#Scope-of-variables-and-functions)
+    4. [Exercises5](#exercises5)
+
 
 
 
@@ -671,7 +676,7 @@ Run PowerShell as Administrator
 
 ![Executio](2019-04-26-21-03-21.png)
 
-## Functions-Part-1
+## Functions Part 1
 
 ### Simple Usage
 
@@ -712,6 +717,26 @@ Run PowerShell as Administrator
 ![Default Values](2019-04-27-00-24-13.png)
 
 ## Functions Part 3
+
+### Switch Parameters
+
+![Switch Parameters](2019-04-27-03-45-41.png)
+
+### Returning values
+
+![Returning values](2019-04-27-03-54-21.png)
+
+### Scope of variables and functions
+
+![Scope of variables and functions](2019-04-27-03-55-06.png)
+
+### Exercises5
+
+Create a function which accepts name of a process or service and stop it.
+
+Use a switch variable in the above function to add the ability of stopping a service as well
+
+Accept a PID parameter too. If a PID is passed to the function, attempt should be made only to stop a process.
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
