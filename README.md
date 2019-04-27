@@ -735,6 +735,17 @@ Run PowerShell as Administrator
 Create a function which accepts name of a process or service and stop it.
 
 ```
+ function stopped ($serv){
+>> if ($serv) {Stop-Process -Name $serv}
+>> }
+PS C:\Users\anake> stopped MicrosoftEdge
+```
+
+![stopped](2019-04-27-04-31-10.png)
+
+Use a switch variable in the above function to add the ability of stopping a service as well
+
+```
 PS C:\Users\anake> function stopservice ($service, [switch]$stop){
 >> $service
 >> if ($stop) {Stop-Process -Name $service}
@@ -744,8 +755,6 @@ MicrosoftEdge
 ```
 
 ![stopservice](2019-04-27-04-19-33.png)
-
-Use a switch variable in the above function to add the ability of stopping a service as well
 
 Accept a PID parameter too. If a PID is passed to the function, attempt should be made only to stop a process.
 
