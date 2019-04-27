@@ -758,5 +758,15 @@ MicrosoftEdge
 
 Accept a PID parameter too. If a PID is passed to the function, attempt should be made only to stop a process.
 
+```
+PS C:\> function StoopService ($service, [switch]$stop, [switch]$id){
+>> $service
+>> if ($stop) {Stop-Process -Name $service}
+>> if ($id) {Stop-Process -Id $service}
+>> }
+```
+
+![idd](2019-04-27-04-58-29.png)
+
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
