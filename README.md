@@ -93,6 +93,7 @@
     1. [Dynamic number of Parameters](#Dynamic-number-of-Parameters)
     2. [Type declaration of the Parameters](#Type-declaration-of-the-Parameters)
     3. [Default Values](#Default-Values)
+13. [Functions Part 3](#Functions-Part-3)
 
 
 
@@ -709,6 +710,8 @@ Run PowerShell as Administrator
 ### Default Values
 
 ![Default Values](2019-04-27-00-24-13.png)
+
+## Functions Part 3
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
