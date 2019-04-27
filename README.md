@@ -80,6 +80,10 @@
         2. [Where-Object](#Where-Object)
     4. [Exercise4](#Exercise4)
 10. [Basic Scripting](#Basic-Scripting)
+    1. [PowerShell ISE](#PowerShell-ISE)
+    2. [Get-ExecutionPolicy](#Get-ExecutionPolicy)
+    3. [Set-ExecutionPolicy](#Set-ExecutionPolicy)
+
 
 
 
@@ -631,6 +635,30 @@ Iterate through the process running on your computer and print the path of the e
 ![Get-Process |ForEach-Object -MemberName Path](2019-04-26-03-59-10.png)
 
 ## Basic Scripting
+
+### PowerShell ISE
+
+![PowerShell ISE](2019-04-26-20-56-12.png)
+
+### Get-ExecutionPolicy
+
+![Get-ExecutionPolicy](2019-04-26-20-57-35.png)
+
+![exec](2019-04-26-20-58-48.png)
+
+### Set-ExecutionPolicy
+
+Run PowerShell as Administrator
+
+```Set-ExecutionPolicy Bypass```
+
+![Set-ExecutionPolicy](2019-04-26-21-00-25.png)
+
+![[Set-Execu](2019-04-26-21-01-18.png)
+
+```Set-ExecutionPolicy Restricted```
+
+![Executio](2019-04-26-21-03-21.png)
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
