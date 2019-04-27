@@ -734,12 +734,14 @@ Run PowerShell as Administrator
 
 Create a function which accepts name of a process or service and stop it.
 
-```PS C:\Users\anake> function stopservice ($service, [switch]$stop){
+```
+PS C:\Users\anake> function stopservice ($service, [switch]$stop){
 >> $service
 >> if ($stop) {Stop-Process -Name $service}
 >> }
 PS C:\Users\anake> stopservice MicrosoftEdge -stop
-MicrosoftEdge```
+MicrosoftEdge
+```
 
 ![stopservice](2019-04-27-04-19-33.png)
 
