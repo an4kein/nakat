@@ -98,6 +98,8 @@
     2. [Returning values](#Returning-values)
     3. [Scope of variables and functions](#Scope-of-variables-and-functions)
     4. [Exercises5](#exercises5)
+14. [Advanced Functions](#Advanced-Functions)
+    1. [Param Statement](#param-statement)
 
 
 
@@ -767,6 +769,11 @@ PS C:\> function StoopService ($service, [switch]$stop, [switch]$id){
 ```
 
 ![idd](2019-04-27-04-58-29.png)
+
+## Advanced Functions
+
+### Param Statement
+
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
 
