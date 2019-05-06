@@ -100,6 +100,8 @@
     4. [Exercises5](#exercises5)
 14. [Advanced Functions](#Advanced-Functions)
     1. [Param Statement](#param-statement)
+    2. [Parameter Attributes](#parameterattributes)
+        1. [Mandatory](#mandatory)
 
 
 
@@ -773,6 +775,17 @@ PS C:\> function StoopService ($service, [switch]$stop, [switch]$id){
 ## Advanced Functions
 
 ### Param Statement
+
+### Parameter Attributes
+
+#### Mandatory
+
+![mandatory](2019-05-06-10-00-17.png)
+
+
+
+
+
 
 
 [types]:    https://blogs.msdn.microsoft.com/besidethepoint/2011/11/22/psobject-and-the-adapted-and-extended-type-systems-ats-and-ets/
